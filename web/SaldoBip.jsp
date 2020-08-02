@@ -87,11 +87,13 @@
         </div>
           <div class="container">
               <div class="section">
-                  <input type="text" name="Userr" class="form-input" placeholder="Usuario" autofocus>
-                  <button class="btn" id="saldoBIP">Cargar saldo BIP</button>
-                  <bR>
-                  <bR>
-                  <bR>
+                  <form class="form" action="SaldoBip.jsp" method="post">
+                      <input type="number" name="numBip" value="" placeholder="Número de la tarjeta BIP" autofocus>
+                      <input type="button" name="numeroBip" value="Consultar saldo" onclick="saldoBIP();">
+                    <bR>
+                    <bR>
+                    <bR>
+                  </form>
               </div>
               <div class="section">
                 <table class="table table-striped table-bordered" cellspacing="0" width="50%">

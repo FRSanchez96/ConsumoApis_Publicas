@@ -81,6 +81,41 @@
           </div>
         </div>
       </section>
+      <!-- TEST -->
+       <section class="section section-inset-1 bg-default text-center bg-image background-position-1" id="home" >
+          
+          <div class="container">
+              <div class="section">
+                  <form class="form" action="Farmacia.jsp" method="post">
+                      <input type="text" name="comunaTxt" value="" placeholder="Nombre Comuna" autofocus>
+                      <input type="button" name="farmaciaTurno" value="Buscar Farmacia" onclick="FarmaciaTurno();">
+                    <bR>
+                    <bR>
+                    <bR>
+                  </form>
+              </div>
+              <div class="section">
+                <table class="table table-striped table-bordered" cellspacing="0" width="50%">
+                    <thead>
+                        <tr>
+                          <th>Nombre Comuna</th>
+                          <th>Fecha</th>
+                          <th>Día de funcionamiento</th>
+                          <th>Horario Apertura</th>
+                          <th>Horario Cierre</th>
+                          <th>Dirección del Local</th>
+                          <th>Nombre del Local</th>
+                          <th>Telefono del Local</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultado">
+                    </tbody>
+                </table>
+              </div>
+          </div>
+          
+          <script src="ApiFarmaciaTurno.js"></script>
+      </section>
       <!-- Contacts-->
       <section class="section section-xl bg-default">
         <div class="container">

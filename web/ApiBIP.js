@@ -1,9 +1,11 @@
-document.querySelector('#saldoBIP').addEventListener('click', function(){
+document.querySelector('#numeroBip').addEventListener('click', function(){
     saldoBIP();
 })
 
 function saldoBIP(){
-     let url = 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=17630834';
+    
+     let dato = document.getElementsByName('numBip')[0].value;
+     let url = `http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=${dato}`;
     
     const api = new XMLHttpRequest();
     api.open('GET', url, true);
@@ -34,7 +36,7 @@ function saldoBIP(){
                           <th>${item.saldoTarjeta}</th>
                           <th>${item.fechaSaldo}</th>
                 </tr>
-                `;
+                `
             }*/
         }
         

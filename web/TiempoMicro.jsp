@@ -82,6 +82,39 @@
         </div>
       </section>
       <!-- Contacts-->
+      <!-- TEST -->
+       <section class="section section-inset-1 bg-default text-center bg-image background-position-1" id="home" >
+          
+          <div class="container">
+              <div class="section">
+                  <form class="form" action="TiempoMicro.jsp" method="post">
+                      <input type="text" name="codigoParadero" value="" placeholder="Codigo Paradero" autofocus>
+                      <input type="button" name="btnMicroReco" value="Saber tiempo" onclick="TiempoMicro();">
+                    <bR>
+                    <bR>
+                    <bR>
+                  </form>
+              </div>
+              <div class="section">
+                <table class="table table-striped table-bordered" cellspacing="0" width="50%">
+                    <thead>
+                        <tr>
+                          <th>Hora de la Consulta</th>
+                          <th>Nombre de la Parada</th>
+                          <th>Locación paradero</th>
+                          <th>Servicio</th>
+                          <th>Tiempo en llegar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultado">
+                    </tbody>
+                </table>
+              </div>
+          </div>
+          
+          <script src="ApiRecorridoMicro.js"></script>
+      </section>
+      <!-- FRSanchez96 -->
       <section class="section section-xl bg-default">
         <div class="container">
           <div class="row row-30 justify-content-center">
