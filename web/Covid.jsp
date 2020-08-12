@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>Aire</title>
+    <title>Casos COVID-19</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -72,15 +72,64 @@
           </nav>
         </div>
       </header>
-      <section class="section section-inset-1 bg-default text-center bg-image background-position-1" id="home" style="background-image: url(images/CalidadAire_Logo.jpg)">
+      <section class="section section-inset-1 bg-default text-center bg-image background-position-1" id="home" style="background-image: url(images/covid_logo.jpg)">
         <div class="container">
           <div class="title-style-1-wrap">
             <div class="oh-desktop wow slideInLeft">
-              <h1 class="title-style-1 wow slideInRight">Calidad del Aíre</h1>
+              <h1 class="title-style-1 wow slideInRight">Información COVID-19</h1>
             </div>
           </div>
         </div>
       </section>
+      <!-- TEST -->
+       <section class="section section-inset-1 bg-default text-center bg-image background-position-1" id="home" >
+          
+          <div class="container">
+              <div class="section">
+                  <button class="btn" id="cargarCasos">Cargar casos Covid-19</button>
+                  <bR>
+                  <bR>
+                  <bR>
+              </div>
+              <div class="section">
+                  <h3 class="title-style-1 wow slideInRight">Información Mundial COVID-19</h3>
+                <table class="table table-striped table-bordered" cellspacing="0" width="50%">
+                    <thead>
+                        <tr>
+                          <th>Nuevos Confirmados</th>
+                          <th>Total Confirmados</th>
+                          <th>Nuevos Muertos</th>
+                          <th>Total Muertos</th>
+                          <th>Nuevos Recuperados</th>
+                          <th>Total Recuperados</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultado">
+                    </tbody>
+                </table>
+              </div>
+              <div class="section">
+                  <h3 class="title-style-1 wow slideInRight">Casos COVID-19 en Chile</h3>
+                <table class="table table-striped table-bordered" cellspacing="0" width="50%">
+                    <thead>
+                        <tr>
+                          <th>Nuevos Confirmados</th>
+                          <th>Total Confirmados</th>
+                          <th>Nuevos Muertos</th>
+                          <th>Total Muertos</th>
+                          <th>Nuevos Recuperados</th>
+                          <th>Total Recuperados</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultado2">
+                    </tbody>
+                </table>
+              </div>
+          </div>
+          
+          <script src="ApiCovid.js"></script>
+      </section>
+      <!-- FRSanchez96 -->
       <!-- Contacts-->
       <section class="section section-xl bg-default">
         <div class="container">

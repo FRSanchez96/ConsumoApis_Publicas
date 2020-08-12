@@ -173,11 +173,11 @@
               </article>
             </div>
             <div class="col-sm-6 col-md-4 wow blurIn">
-              <article class="project-classic box-md"><img src="images/medidor-calidad-aire.jpg" alt="" id="ex"/>
+              <article class="project-classic box-md"><img src="images/Covid.jpg" alt="" id="ex"/>
                 <div class="project-classic-caption">
                   <div>
-                    <h4 class="project-classic-title"><a href="Aire.jsp">Calidad del Aire</a></h4>
-                    <div class="project-classic-tag">Santiago</div>
+                    <h4 class="project-classic-title"><a href="Covid.jsp">Casos de COVID-19</a></h4>
+                    <div class="project-classic-tag">en Chile y en el mundo</div>
                   </div>
                 </div>
               </article>
